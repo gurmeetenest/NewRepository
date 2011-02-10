@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="GitHubProject" generation="1" functional="0" release="0" Id="b1cecc31-7ef8-4f97-a99f-7c6e97229127" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="GitHubProject" generation="1" functional="0" release="0" Id="d11e63af-c18c-49a2-a8e7-1f9027c272a8" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="GitHubProjectGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -99,9 +99,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="72dd40fa-71ac-43e9-a074-2347e95a0881" ref="Microsoft.RedDog.Contract\ServiceContract\GitHubProjectContract@ServiceDefinition.build">
+    <implementation Id="5fa59110-d663-4352-92bc-aeeb214dbd6b" ref="Microsoft.RedDog.Contract\ServiceContract\GitHubProjectContract@ServiceDefinition.build">
       <interfacereferences>
-        <interfaceReference Id="37b64666-cea1-4485-913b-26ce5a3dc086" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition.build">
+        <interfaceReference Id="1f502110-1684-4117-83a4-f041f4c3b20b" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/GitHubProject/GitHubProjectGroup/WebRole1:Endpoint1" />
           </inPort>
