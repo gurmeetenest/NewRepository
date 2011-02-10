@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.3.0</ProductVersion>
-    <ProjectGuid>{b9e75112-618d-4956-8ee1-5c9f205aa494}</ProjectGuid>
+    <ProjectGuid>{aecfbf62-b169-4758-a704-bb69a9cf281f}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GitHubProject</RootNamespace>
@@ -35,9 +35,9 @@
     <ServiceConfiguration Include="ServiceConfiguration.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebRole1\WebRole1.csproj">
+    <ProjectReference Include="WebRole1\WebRole1.csproj">
       <Name>WebRole1</Name>
-      <Project>{51a05469-bf34-4671-8210-a6a7a571bc55}</Project>
+      <Project>{f2001342-4c6d-42d3-a8c8-d7bf96258ca4}</Project>
       <Private>True</Private>
       <RoleType>Web</RoleType>
       <RoleName>WebRole1</RoleName>

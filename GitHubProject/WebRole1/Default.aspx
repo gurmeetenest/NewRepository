@@ -8,7 +8,6 @@
         Welcome to ASP.NET!
     </h2>
     <p>
-    This is a new change in the defalut page to be displayed on the browser
         To learn more about ASP.NET visit <a href="http://www.asp.net" title="ASP.NET Website">www.asp.net</a>.
     </p>
     <p>
